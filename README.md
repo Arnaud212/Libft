@@ -1,18 +1,18 @@
 # Libft
 
-Bienvenue dans le projet Libft ! Ce projet consiste à créer une bibliothèque personnelle de fonctions en C.
+Welcome to the Libft project! This project involves creating a personal library of functions in C.
 
-## Objectif du Projet
+## Project Objective
 
-Le but de ce projet est de coder une bibliothèque de fonctions courantes en C, incluant des fonctions de la libc (comme `strlen`, `memset`, etc.) et des fonctions supplémentaires (comme `ft_substr`, `ft_strjoin`, etc.). Vous devez également implémenter des fonctions pour manipuler des listes chaînées.
+The goal of this project is to code a library of common functions in C, including functions from the libc (such as `strlen`, `memset`, etc.) and additional functions (such as `ft_substr`, `ft_strjoin`, etc.). You must also implement functions to manipulate linked lists.
 
-## Utilisation du Projet
+## Project Usage
 
-1. **Compilation**: Utilisez le Makefile fourni pour compiler la bibliothèque. Tapez `make` dans votre terminal pour générer le fichier `libft.a`.
-2. **Inclure la Bibliothèque**: Dans vos projets futurs, incluez la bibliothèque en ajoutant `#include "libft.h"` et en liant `libft.a` lors de la compilation de votre projet.
-3. **Fonctions Disponibles**: Utilisez les fonctions définies dans `libft.h` dans vos projets pour simplifier votre développement en C.
+1. **Compilation**: Use the provided Makefile to compile the library. Type `make` in your terminal to generate the `libft.a` file.
+2. **Including the Library**: In your future projects, include the library by adding `#include "libft.h"` and linking `libft.a` when compiling your project.
+3. **Available Functions**: Use the functions defined in `libft.h` in your projects to simplify your C development.
 
-### Exemple d'utilisation
+### Usage Example
 
 ```c
 #include "libft.h"
@@ -24,7 +24,7 @@ int main() {
 }
 ```
 
-Pour compiler ce projet avec votre bibliothèque :
+To compile this project with your library:
 
 ```sh
 gcc -Wall -Wextra -Werror main.c -L. -lft -o my_project
